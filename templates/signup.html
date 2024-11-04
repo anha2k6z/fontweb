@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='sign.css')}}">
+    <title>Tạo Tài Khoản</title>
+</head>
+<body>
+    <form  method="post">
+        <h1>SIGN UP</h1>
+        <div class="gmail"> 
+            <lable for="gmail">Gmail</lable>
+            <input type="text" name="gmail" id="gmail" placeholder="Nhập Gmail">
+        </div>
+        <div class="password">
+            <lable for="password">Mật Khẩu</lable>
+            <input type="password" name="password" id="password" placeholder="Nhập Mật Khẩu">
+        </div>
+        <div class="password1">
+            <lable for="password">Mật Khẩu</lable>
+            <input type="password" name="password" id="password" placeholder="Nhập lại  Mật Khẩu">
+        </div>
+        <div class="a"> 
+            <button type="sumbit">Đăng kí</button>
+        </div>
+    </form>
+</body>
+</html>
